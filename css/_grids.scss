@@ -2,8 +2,6 @@
   display: grid;
   align-content: space-between;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-
 
   .img {
     grid-column: 1/3 ;
@@ -18,6 +16,7 @@
   &-description {
     grid-column: 1/3 ;
     grid-row: 3;
+    grid-row: 1fr;
   }
 
   &-price { 
