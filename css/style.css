@@ -1,6 +1,7 @@
 * {
   padding: 0px;
-  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 main {
@@ -19,6 +20,7 @@ main {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 .wrapper * {
@@ -128,7 +130,7 @@ main {
   padding: 5px 10px;
   font-size: 15px;
   color: white;
-  background-color: rgb(0, 128, 0);
+  background-color: rgb(33, 70, 33);
   border: none;
   border-radius: 5px;
 }
@@ -140,8 +142,8 @@ main {
 .menu .button-search {
   padding: 5px 10px;
   font-size: 15px;
-  color: rgb(0, 128, 0);
+  color: rgb(33, 70, 33);
   background-color: white;
-  border: 2px solid rgb(0, 128, 0);
+  border: 2px solid rgb(33, 70, 33);
   border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
